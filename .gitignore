@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+outputs/*
+!outputs/.gitkeep
+data/*
+!data/.gitkeep
+*.log
+.DS_Store
+
+

@@ -1,0 +1,25 @@
+AI ATS RESUME ANALYZER
+=======================
+
+1. Extract this ZIP.
+2. Open the extracted folder in VS Code.
+3. Create a virtual environment:
+   python -m venv .venv
+4. Activate it on Windows:
+   .venv\Scripts\activate
+5. Install dependencies:
+   pip install -r requirements.txt
+6. Copy .env.example to .env.
+7. Put your legitimate API token in .env.
+8. Run:
+   streamlit run app/main.py
+9. Upload a resume PDF and paste the complete JD.
+10. Click Run RAG ATS Analysis.
+11. Review evidence, matching, coverage, projects, keywords and recommendations.
+12. Click Tailor My Resume to generate a constrained LaTeX version.
+13. If pdflatex is installed, a PDF is also compiled automatically.
+
+IMPORTANT:
+- The included notebook is sanitized. No real API key is shipped.
+- Coverage is a project metric, not an employer ATS score.
+- The tailoring engine is instructed not to fabricate candidate facts.
